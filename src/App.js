@@ -29,7 +29,7 @@ function App() {
   },[value])
 
   const delayFunction = useMemo(()=> {
-    console.log("it ran")
+    console.log("Delay Function Ran")
     for(let index=0; index<LARGE_NUMBER; index++){};
     return value+2;
   },[value])

@@ -32,12 +32,12 @@ Your task is to optimize the given code, and remove the delay - as shown below:
 ![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/lab-react-pro-hook-sol.gif)
 
 **NOTE:** You must have also observed, that initially, in your console, if you click any button --> 
-`it ran` and `callback function was called` --> theses two text message get consoled everytime you click any of the three buttons.
+`Delay function ran` and `callback function was called` --> theses two text message get consoled everytime you click any of the three buttons.
 
-Your task is to optimize the code in such a way --> that these two texts : `it ran` and `callback function was called`, only appear in console, when you click on `change value ` button - as shown below:
+Your task is to optimize the code in such a way --> that these two texts : `Delay function ran` and `callback function was called`, only appear in console, when you click on `change value ` button - as shown below:
 
 
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/lab-react-pro-hook-console-sol.gif)
+![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/lab-react-hooks-console-sol.gif)
 
 
 Happy Coding ❤️!
