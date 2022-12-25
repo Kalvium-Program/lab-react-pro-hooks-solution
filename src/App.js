@@ -19,12 +19,12 @@ function App() {
   
   // }
 
-  // const callBackFunction = ()=>{
+  // const testFunction = ()=>{
   //   return [value*3 ,value*4]
   // }
 
 
-  const callBackFunction = useCallback(()=>{
+  const testFunction = useCallback(()=>{
     return [value*3,value*4]
   },[value])
 
@@ -37,7 +37,7 @@ function App() {
 
   useEffect(()=>{
     console.log("Callback Function was called")
-  },[callBackFunction])
+  },[testFunction])
 
 
 
@@ -60,7 +60,7 @@ function App() {
   }
 
   const handleList = ()=>{
-    setList(callBackFunction);
+    setList(testFunction);
   }
 
   const styleTheme = {
