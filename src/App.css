@@ -1,0 +1,12 @@
+h1,h2{
+  color:rgb(241, 154, 154);
+  text-align: center;
+}
+
+.page{
+  margin-left: 500px;
+  margin-top: 50px;
+  height: 500px;
+  width: 500px;
+}
+
